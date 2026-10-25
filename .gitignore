@@ -1,0 +1,25 @@
+# Local secrets - never commit real credentials
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Editors / OS
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
+
+# Oracle client artefacts (wallets must never be committed)
+*.sso
+*.p12
+ewallet.*
+cwallet.*
