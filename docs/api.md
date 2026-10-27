@@ -1,6 +1,6 @@
 # API reference
 
-Interactive documentation with request/response schemas: <http://127.0.0.1:8000/docs>.
+Interactive documentation with request/response schemas: <http://127.0.0.2:8000/docs>.
 All errors look like `{"error": {"code": "...", "message": "...", "details": ...}}`.
 Amounts are decimal strings with two places.
 
